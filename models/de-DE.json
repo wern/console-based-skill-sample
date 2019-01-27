@@ -1,0 +1,44 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "geo besserwisser",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CapitalIntent",
+                    "slots": [
+                        {
+                            "name": "country",
+                            "type": "AMAZON.Country"
+                        }
+                    ],
+                    "samples": [
+                        "wie heißt die Hauptstadt von {country}",
+                        "was ist die Hauptstadt von {country}",
+                        "nach der Hauptstadt von {country}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
